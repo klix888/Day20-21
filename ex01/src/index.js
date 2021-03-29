@@ -19,9 +19,7 @@ function space() {
 function submit() {
     alert(text.value);
 };
-function shift() {
-    
-}
+
 
 
 /*function keyboardInput(key) {
