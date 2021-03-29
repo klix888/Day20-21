@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>QWERTY Keyboard</title>
+</head>
+<body>
+    <h2 id="h2">QWERTY Keyboard</h2>
+    <textarea name="" id="textarea" cols="100" rows="15" placeholder="TEXT AREA"></textarea>
+    <div id="keyboard">
+        <div class="row">
+        <button type="button" onclick="keyboardInput(1)" class="character-btn">1</button>
+        <button type="button" onclick="keyboardInput(2)" class="character-btn">2</button>
+        <button type="button" onclick="keyboardInput(3)" class="character-btn">3</button>
+        <button type="button" onclick="keyboardInput(4)" class="character-btn">4</button>
+        <button type="button" onclick="keyboardInput(5)" class="character-btn">5</button>
+        <button type="button" onclick="keyboardInput(6)" class="character-btn">6</button>
+        <button type="button" onclick="keyboardInput(7)" class="character-btn">7</button>
+        <button type="button" onclick="keyboardInput(8)" class="character-btn">8</button>
+        <button type="button" onclick="keyboardInput(9)" class="character-btn">9</button>
+        <button type="button" onclick="keyboardInput(0)" class="character-btn">0</button>
+        <button type="button" onclick="backSpace()" class="backspace-btn">Back Space</button> 
+    </div>
+
+
+
+
+    <div class="row">
+        <button type="button" onclick="keyboardInput('q')" class="character-btn">Q</button>
+        <button type="button" onclick="keyboardInput('w')" class="character-btn">W</button>
+        <button type="button" onclick="keyboardInput('e')" class="character-btn">E</button>
+        <button type="button" onclick="keyboardInput('r')" class="character-btn">R</button>
+        <button type="button" onclick="keyboardInput('t')" class="character-btn">T</button>
+        <button type="button" onclick="keyboardInput('y')" class="character-btn">Y</button>
+        <button type="button" onclick="keyboardInput('u')" class="character-btn">U</button>
+        <button type="button" onclick="keyboardInput('i')" class="character-btn">I</button>
+        <button type="button" onclick="keyboardInput('o')" class="character-btn">O</button>
+        <button type="button" onclick="keyboardInput('p')" class="character-btn">P</button>
+        <button type="button" onclick="enter()" class="enter-btn">Enter</button> 
+
+    </div>
+    
+
+    <div class="row">
+        <button type="button" onclick="keyboardInput('a')" class="character-btn">A</button>
+        <button type="button" onclick="keyboardInput('s')" class="character-btn">S</button>
+        <button type="button" onclick="keyboardInput('d')" class="character-btn">D</button>
+        <button type="button" onclick="keyboardInput('f')" class="character-btn">F</button>
+        <button type="button" onclick="keyboardInput('g')" class="character-btn">G</button>
+        <button type="button" onclick="keyboardInput('h')" class="character-btn">H</button>
+        <button type="button" onclick="keyboardInput('j')" class="character-btn">J</button>
+        <button type="button" onclick="keyboardInput('k')" class="character-btn">K</button>
+        <button type="button" onclick="keyboardInput('l')" class="character-btn">L</button>
+        <button type="button" onclick="capsLock()" class="caps-btn">Caps Lock</button>   
+        
+    </div>
+
+    <div class="row">
+        <button type="button" onclick="keyboardInput('z')" class="character-btn">Z</button>
+        <button type="button" onclick="keyboardInput('x')" class="character-btn">X</button>
+        <button type="button" onclick="keyboardInput('c')" class="character-btn">C</button>
+        <button type="button" onclick="keyboardInput('v')" class="character-btn">V</button>
+        <button type="button" onclick="keyboardInput('b')" class="character-btn">B</button>
+        <button type="button" onclick="keyboardInput('n')" class="character-btn">N</button>
+        <button type="button" onclick="keyboardInput('m')" class="character-btn">M</button>
+        <button type="button" onclick="keyboardInput('-')" class="character-btn">-</button>
+        <button type="button" onclick="keyboardInput('_')" class="character-btn">_</button>
+        <button type="button" onclick="shift()" class="shift-btn">Shift</button>   
+        
+    </div>
+
+    <div class="row">
+        <button type="button" onclick="space()" class="space-btn">Space</button>
+        <button type="button" onclick="submit()" class="submit-btn">OK</button> 
+
+
+    </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
